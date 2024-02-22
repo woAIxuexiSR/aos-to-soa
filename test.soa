@@ -1,0 +1,14 @@
+flat int;
+flat float;
+flat bool;
+
+soa Interval {
+    float low, high;
+};
+
+soa Point2f { float x, y; };
+soa Point2i { int x, y; };
+soa Point3f { float x, y, z; };
+soa Vector3f { float x, y, z; };
+soa Normal3f { float x[3]; };
+soa Point3fi { Interval x, y, z; };
